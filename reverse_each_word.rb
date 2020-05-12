@@ -16,10 +16,10 @@ end
 def reverse_each_word(sen) 
   arr = sen.split(" ")
   newa = [] 
-  arr.each_with_index do |word,ind|
-    newa[ind] =  rev(word) 
+  arr.collect do |word|
+    rev(word) 
   end 
-  k = newa.join(" ")
+  k = arr.join(" ")
   puts k 
   return k 
 end 
