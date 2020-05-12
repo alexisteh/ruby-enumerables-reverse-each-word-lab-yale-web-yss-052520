@@ -2,7 +2,7 @@ require "pry"
 
 def reverse_each_word(sen) 
   arr = sen.split(" ")
-  arr.collect do |word| 
+  arr.map do |word| 
     word.reverse 
   end 
   k = arr.join(" ")
