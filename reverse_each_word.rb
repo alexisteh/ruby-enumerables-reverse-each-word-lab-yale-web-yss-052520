@@ -5,7 +5,8 @@ def reverse_each_word(sen)
   arr.collect do |word| 
     word.reverse 
   end 
-  arr.join("")
+  k = arr.join("")
+  puts k 
 end 
 
 reverse_each_word("Hello yo yo!") 
