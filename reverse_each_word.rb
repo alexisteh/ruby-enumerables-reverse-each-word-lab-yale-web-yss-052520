@@ -10,7 +10,7 @@ def rev(wd)
   end 
   k = newa.join("")
   puts k 
-  return k 
+  k 
 end 
 
 
