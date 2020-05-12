@@ -2,9 +2,10 @@ require "pry"
 
 def rev(wd)
   arr = wd.split("") 
+  len = arr.length 
   newa = []
   arr.each_with_index do |letter, ind| 
-    newind = arr.length -1 - ind 
+    newind = len -1 - ind 
     newa[newind] = letter 
   end 
   return newa 
