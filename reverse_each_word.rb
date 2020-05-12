@@ -8,6 +8,7 @@ def rev(wd)
     newind = len -1 - ind 
     newa[newind] = letter 
   end 
+  puts newa 
   return newa 
 end 
 
