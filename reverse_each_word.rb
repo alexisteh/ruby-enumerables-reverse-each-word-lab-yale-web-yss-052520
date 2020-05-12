@@ -24,6 +24,5 @@ def reverse_each_word(sen)
   return k 
 end 
 
-rev("abc")
 reverse_each_word("Hello there, and who are you?
 
