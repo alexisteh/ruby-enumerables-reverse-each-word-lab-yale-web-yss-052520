@@ -9,7 +9,6 @@ def rev(wd)
     newa[newind] = letter 
   end 
   k = newa.join("")
-  puts k 
   return k 
 end 
 
