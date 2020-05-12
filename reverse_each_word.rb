@@ -15,7 +15,6 @@ end
 
 def reverse_each_word(sen) 
   arr = sen.split(" ")
-  newa = [] 
   arr.collect do |word|
     rev(word) 
   end 
