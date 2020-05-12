@@ -21,7 +21,7 @@ def reverse_each_word(sen)
   end 
   k = newa.join(" ")
   puts k 
-  k 
+  return k 
 end 
 
 rev("abc")
