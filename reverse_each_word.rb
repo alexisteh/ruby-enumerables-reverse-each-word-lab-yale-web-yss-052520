@@ -9,6 +9,7 @@ def rev(wd)
     newa[newind] = letter 
   end 
   k = newa.join("")
+  puts k 
   return k 
 end 
 
@@ -21,5 +22,6 @@ def reverse_each_word(sen)
   return k 
 end 
 
+rev("Hello") 
 reverse_each_word("Hello there, and who are you?") 
 
