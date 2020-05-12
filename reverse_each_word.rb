@@ -16,7 +16,7 @@ end
 
 def reverse_each_word(sen) 
   arr = sen.split(" ")
-  arr.collect { |x| rev(x) }
+  arr.map { |x| rev(x) }
   k = arr.join(" ")
   puts k 
   return k 
